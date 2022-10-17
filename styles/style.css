@@ -1,0 +1,28 @@
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: aqua;
+    width: 400px;
+    height: 100%;
+    /* display: flex; */
+}
+
+#left {
+    background-color: blue;
+    min-height: 100vh;
+    max-width: 400px; /*for responsiveness*/
+    float: left;
+}
+
+#right {
+    background-color: red;
+    float: right;
+    min-height: 100vh;
+}
